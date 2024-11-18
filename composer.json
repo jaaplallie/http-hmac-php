@@ -1,5 +1,5 @@
 {
-    "name": "jaaplallie/http-hmac-php",
+    "name": "acquia/http-hmac-php",
     "type": "library",
     "description": "An implementation of the HTTP HMAC Spec in PHP that integrates with popular libraries such as Symfony and Guzzle.",
     "homepage": "https://github.com/acquia/http-hmac-php",
@@ -38,12 +38,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jaaplallie\\Hmac\\": "src/"
+            "Acquia\\Hmac\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jaaplallie\\Hmac\\Test\\": "test/"
+            "Acquia\\Hmac\\Test\\": "test/"
         }
     }
 }
